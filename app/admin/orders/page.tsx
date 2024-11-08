@@ -31,7 +31,7 @@ const OrdersPage = async () => {
 
 export default OrdersPage;
 
-export const DeliveryOrders = async ({ title, orders }: { title: string; orders: Order[] }) => {
+const DeliveryOrders = async ({ title, orders }: { title: string; orders: Order[] }) => {
   return (
     <div className="mb-6">
       <h2 className="mb-3 text-lg">{title}</h2>
